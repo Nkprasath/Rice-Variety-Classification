@@ -4,12 +4,12 @@ import numpy as np
 import pandas as pd
 from PIL import Image
 
-from sklearn import metrics
-from sklearn import preprocessing
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-from sklearn.metrics import accuracy_score
+from scikit-learn import metrics
+from scikit-learn import preprocessing
+from scikit-learn.model_selection import train_test_split
+from scikit-learn.preprocessing import StandardScaler
+from scikit-learn.decomposition import PCA
+from scikit-learn.metrics import accuracy_score
 
 from keras.models import load_model
 import tensorflow as tf
