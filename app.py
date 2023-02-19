@@ -79,7 +79,7 @@ if x == "ANN":
 if x == "DNN":
     m3 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">MODEL DETAILS</h2>'
     st.markdown(m3 , unsafe_allow_html = True)
-    m2 = '<h3> style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is DNN</h3>'
+    m2 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is DNN</h2>'
     st.markdown(m2 , unsafe_allow_html = True)
     if st.button("Click here to see model details"):
         st.write("Training Loss:    0.005439203232526779")
@@ -100,7 +100,7 @@ if x == "DNN":
 if x == "VGG16":
     m3 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">MODEL DETAILS</h2>'
     st.markdown(m3 , unsafe_allow_html = True)
-    m2 = '<h3 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is CNN</h3>'
+    m2 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is CNN</h2>'
     st.markdown(m2 , unsafe_allow_html = True)
     if st.button("Click here to see model details"):
         st.write("Training Loss: 0.02162024166584015")
