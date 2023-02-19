@@ -57,10 +57,10 @@ df_labels = {
 new_key = list(df_labels)
 
 if x == "ANN":
-    m2 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is ANN</h2>'
-    st.markdown(m2 , unsafe_allow_html = True)
     m3 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">MODEL DETAILS</h2>'
     st.markdown(m3 , unsafe_allow_html = True)
+    m2 = '<h3 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is ANN</h3>'
+    st.markdown(m2 , unsafe_allow_html = True)
     if st.button("Click here to see model details"):
         st.write("Training Loss:    0.001284547965042293")
         st.write("Validation Loss:  0.004056261386722326")
@@ -77,10 +77,10 @@ if x == "ANN":
         st.image(img2)
 
 if x == "DNN":
-    m2 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is DNN</h2>'
-    st.markdown(m2 , unsafe_allow_html = True)
     m3 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">MODEL DETAILS</h2>'
     st.markdown(m3 , unsafe_allow_html = True)
+    m2 = '<h3style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is DNN</h3>'
+    st.markdown(m2 , unsafe_allow_html = True)
     if st.button("Click here to see model details"):
         st.write("Training Loss:    0.005439203232526779")
         st.write("Validation Loss:  0.07092532515525818")
@@ -98,10 +98,10 @@ if x == "DNN":
         st.image(img2)
 
 if x == "VGG16":
-    m2 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is CNN</h2>'
-    st.markdown(m2 , unsafe_allow_html = True)
     m3 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">MODEL DETAILS</h2>'
     st.markdown(m3 , unsafe_allow_html = True)
+    m2 = '<h3 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is CNN</h3>'
+    st.markdown(m2 , unsafe_allow_html = True)
     if st.button("Click here to see model details"):
         st.write("Training Loss: 0.02162024166584015")
         st.write("Validation Loss: 0.09527199065065384")
