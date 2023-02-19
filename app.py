@@ -46,8 +46,6 @@ st.markdown("To balance the data, Nan values where removed and then applied Stan
 
 m2 = '<h2 style="font-family:sans-serif; color: BLACK; font-size: 20px; align ="right">In the project 3 different models were compared namely ANN, DNN, VGG16</h2>'
 st.markdown(m2 , unsafe_allow_html = True)
-m2 = '<h2 style="font-family:sans-serif; color: BLACK; font-size: 20px; align ="right">The proposed model is VGG16</h2>'
-st.markdown(m2 , unsafe_allow_html = True)
 
 df_labels = {
     'arborio' : 0,
