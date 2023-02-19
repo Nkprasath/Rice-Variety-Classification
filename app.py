@@ -36,7 +36,7 @@ st.image(imgsd)
 st.markdown("The dataset includes 5 different rice varities namely Arborio, Basmati, Ipsala, Jasmine and Karacadag")
 st.markdown("Each variety contains 15,000 images. The whole dataset contains 75,000 images of sample data")
 st.markdown("For ANN and DNN 75,000 datas were used.")
-st.markdown("For VGG16, 250 from each class were used. So a total of 1250 images were used to train.")
+st.markdown("For VGG16, 120 from each class were used. So a total of 600 images were used to train.")
 
 m2 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">DATA PREPROCESSING</h2>'
 st.markdown(m2 , unsafe_allow_html = True)
