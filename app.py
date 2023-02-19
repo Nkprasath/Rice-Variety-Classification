@@ -57,7 +57,8 @@ df_labels = {
 new_key = list(df_labels)
 
 if x == "ANN":
-    st.write("User Input")
+    m2 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is ANN</h2>'
+    st.markdown(m2 , unsafe_allow_html = True)
     m3 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">MODEL DETAILS</h2>'
     st.markdown(m3 , unsafe_allow_html = True)
     if st.button("Click here to see model details"):
@@ -76,6 +77,8 @@ if x == "ANN":
         st.image(img2)
 
 if x == "DNN":
+    m2 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is DNN</h2>'
+    st.markdown(m2 , unsafe_allow_html = True)
     m3 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">MODEL DETAILS</h2>'
     st.markdown(m3 , unsafe_allow_html = True)
     if st.button("Click here to see model details"):
@@ -95,6 +98,8 @@ if x == "DNN":
         st.image(img2)
 
 if x == "VGG16":
+    m2 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">The selected model is CNN</h2>'
+    st.markdown(m2 , unsafe_allow_html = True)
     m3 = '<h2 style="font-family:sans-serif; color: BROWN; font-size: 30px; align ="right">MODEL DETAILS</h2>'
     st.markdown(m3 , unsafe_allow_html = True)
     if st.button("Click here to see model details"):
